@@ -11,7 +11,7 @@ if __name__ == "__main__":
         for line in f:
             ex = json.loads(line)
             state = {"goal": ex["goal"], "approve": ex.get("approve", False)}
-            out = graph.invoke(state)
+            out = graph.invoke(state) # type: ignore
             print("=== RESULT ===")
             for k, v in out.items():
                 if isinstance(v, str) and len(v) > 300:

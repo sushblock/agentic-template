@@ -14,7 +14,7 @@ class RunRequest(BaseModel):
 @app.post("/run")
 async def run(req: RunRequest):
     state = {"goal": req.goal, "approve": req.approve}
-    result = graph.invoke(state)
+    result = graph.invoke(state) # type: ignore
     return result
 
 

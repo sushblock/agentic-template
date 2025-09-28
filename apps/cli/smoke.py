@@ -10,5 +10,5 @@ if __name__ == "__main__":
 
 
     state = {"goal": args.goal, "approve": args.approve}
-    out = graph.invoke(state)
+    out = graph.invoke(state) # type: ignore
     print(out)
