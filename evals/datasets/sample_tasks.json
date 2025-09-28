@@ -1,0 +1,4 @@
+[
+  {"goal": "Create a purchase order for 10 steel rods", "approve": true},
+  {"goal": "Summarize yesterday's incident report for the COO", "approve": false}
+]

@@ -1,0 +1,135 @@
+
+
+---
+
+
+## .gitignore
+```gitignore
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+conda-env/
+
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.cache/
+
+
+# Jupyter & notebooks
+.ipynb_checkpoints/
+
+
+# Logs & temp
+logs/
+.log/
+*.log
+*.tmp
+.tmp/
+.temp/
+.DS_Store
+Thumbs.db
+
+
+# App data (adjust to your needs)
+data/
+artifacts/
+outputs/
+/tmp/
+
+
+# RAG & vector stores (example: Chroma local dir)
+chroma/
+chroma_db/
+vectorstore/
+
+
+# LangChain / LangSmith local metadata
+.langchain/
+.langsmith/
+
+
+# Credentials & env
+.env
+.env.*
+*.env
+secrets*/
+
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+
+# Cursor AI
+.cursor/
+
+
+# JetBrains
+*.ipr
+*.iws
+
+
+# OS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# Node (sometimes used for frontends/docs)
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+
+# Uvicorn/coverage artifacts
+*.pid
+
+
+# FastAPI generated assets (if any)
+static/
+
+
+# SQLite and local DBs
+*.db
+*.sqlite3
+
+
+# Lock files (optional; keep if you use them)
+poetry.lock
+Pipfile.lock
+requirements.lock
