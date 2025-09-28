@@ -70,7 +70,6 @@ vectorstore/
 
 # Credentials & env
 .env
-.env.*
 *.env
 secrets*/
 
