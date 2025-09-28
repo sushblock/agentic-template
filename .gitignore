@@ -125,3 +125,6 @@ static/
 poetry.lock
 Pipfile.lock
 requirements.lock
+
+#VSC related
+.vscode/
